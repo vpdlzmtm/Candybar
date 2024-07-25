@@ -1,5 +1,8 @@
+
+
 plugins {
     alias(libs.plugins.android.application)
+
 }
 
 android {
@@ -40,4 +43,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+
 }
